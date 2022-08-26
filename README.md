@@ -29,7 +29,7 @@ Fasal (Wolkus Technology Solutions Private Limited) Movie library to add in publ
 
 ## Heroku
 
-Website: [Movie library](Fasalmovielibrary.pythonanywhere.com) 
+Website: [Movie library](http://fasalmovielibrary.pythonanywhere.com/)
 
 
 
