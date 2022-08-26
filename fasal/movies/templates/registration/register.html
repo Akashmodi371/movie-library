@@ -1,0 +1,17 @@
+{% extends 'movies/layout.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class=" container d-flex justify-content-center">
+  <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <p>Already Have an account? Login <a href="{% url 'login' %}">Here</a>.</p>
+    <button type="submit" class="btn btn-info">Register</button>
+  </form>
+</div>
+
+{% endblock %}
